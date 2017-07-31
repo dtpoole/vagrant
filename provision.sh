@@ -12,7 +12,7 @@ apt-get -y dist-upgrade >/dev/null 2>&1
 
 echo Installing apps...
 apt-get -y install build-essential tmux vim-nox htop nmap tree unzip ack-grep git zsh openjdk-8-jdk-headless >/dev/null 2>&1
-apt-get -y install libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev >/dev/null 2>&1
+apt-get -y install libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev libbz2-dev >/dev/null 2>&1
 apt-get -y install libffi-dev python3-dev python3-pip python3-venv >/dev/null 2>&1
 apt-get -y autoremove >/dev/null 2>&1
 
