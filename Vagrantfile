@@ -11,6 +11,8 @@ Vagrant.configure("2") do |config|
     vb.gui = false
   end
 
+  config.vbguest.iso_path = "http://download.virtualbox.org/virtualbox/$VBOX_VERSION/VBoxGuestAdditions_$VBOX_VERSION.iso"
+  
   #config.vm.network "forwarded_port", guest: 8888, host: 8888, host_ip: "127.0.0.1"
 
   config.ssh.forward_agent = true
